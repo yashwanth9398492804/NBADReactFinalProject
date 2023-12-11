@@ -1,0 +1,45 @@
+.add-budget-form {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 100px;
+  border: 50px solid #333131;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group .react-datepicker__input-container {
+  width: 100%;
+  padding: 15px; /* Increase the padding to make the input fields taller */
+  font-size: 16px; /* Increase the font size for better readability */
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.add-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 15px 20px; /* Increase padding for button height */
+  font-size: 16px; /* Increase font size for button text */
+}
+
+.add-button:hover {
+  background-color: #0056b3;
+}

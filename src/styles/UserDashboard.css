@@ -1,0 +1,171 @@
+/* Dashboard.css */
+.personalbudget {
+    text-align: center;
+    
+    top: 10%;
+    left: 50%;
+    transform: translateX(0%);
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px 0;
+    margin: 0;
+    z-index: 1000;
+}
+
+.logout-button {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: #bc4e38;
+    color: #fefefe;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dashboard {
+    margin-top:0%; 
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(245, 242, 242, 0.1);
+}
+
+.dashboard ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.dashboard ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.dashboard button {
+    background-color: #2f1fc2;
+    color: #fffefe;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dashboard button:hover {
+    background-color: rgb(31, 157, 192)69, 160);
+}
+
+.centered-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .add-budget-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .budget-list-component {
+    display: flex;
+     justify-content: center;
+    align-items: center; 
+    height: 50vh;
+  }
+  
+  .budget-chart-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+  }
+  
+  .add-budget-capacity-component {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+
+
+.dashboard-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ffffff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    max-width: 400px; /* Adjust the maximum width as needed */
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .dashboard-modal h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  .dashboard-modal p {
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-modal button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-color: #5e4caf;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .dashboard-modal button:hover {
+    background-color: rgb(254, 2, 2);
+  }
+
+.dashboard {
+  display: flex; /* Use flexbox to center the navigation */
+  flex-direction: column; /* Stack the ul in a column */
+  align-items: center; /* Center the ul */
+  margin-top: 0; /* Adjust the margin-top value to your preference */
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  box-shadow: 0 4px 8px rgba(245, 242, 242, 0.1);
+}
+
+.dashboard ul {
+  list-style-type: none;
+  padding: 0;
+  display: grid; /* Set the display to grid */
+  grid-template-columns: repeat(2, 1fr); /* Create two columns */
+  grid-gap: 10px; /* Set the gap between grid items */
+  max-width: 400px; /* Set a max-width for the grid container if desired */
+}
+
+.dashboard ul li {
+  margin: 5px; /* Adjust margin for grid items if needed */
+}
+
+.dashboard button {
+  background-color: rgb(24, 21, 178) 76, 175);
+  color: #ffffff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%; /* Make buttons fill their grid area */
+}
+
+.dashboard button:hover {
+  background-color: #bdc00e;
+}
+

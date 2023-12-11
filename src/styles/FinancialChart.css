@@ -1,0 +1,62 @@
+.budget-chart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1300px;
+  max-height: 1000px;
+  margin: 500px auto 0;
+  text-align: center;
+}
+
+.label-container {
+  margin-bottom: 20px;
+}
+
+.budget-chart select {
+  width: 150px;
+}
+
+.chart {
+  flex: 1;
+  text-align: center;
+  width: 50%;
+  height: 80%;
+  margin-bottom: 20px;
+}
+
+.chart2 {
+  flex: 1; /* Change the flex property to 1 to make it equal to chart */
+  text-align: center;
+  width: 50%;
+  height: 50%; /* Adjust the height as needed */
+  margin-bottom: 20px;
+}
+
+.charts-container {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.budget-canvas,
+.budget-pie-canvas,
+.budget-scatter-canvas,
+.budget-bubble-canvas {
+  max-width: 800px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 500px) {
+  .charts-container {
+    flex-direction: row;
+  }
+
+  .chart,
+  .chart2 {
+    flex: 1;
+  }
+}

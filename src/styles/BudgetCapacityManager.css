@@ -1,0 +1,71 @@
+/* AddBudgetCapacity.css */
+
+/* General styling for the component container */
+
+  .add-budget-container {
+    max-width: 1000px; /* Increase the max-width to make the container wider */
+    max-height: 1000px;
+    margin: -15% auto 0; /* Increase the negative margin to move the box upward */
+    padding: 30px; /* Add padding to increase space between border and content */
+    border-radius: 50px;
+    border: 10px solid #4a148c; /* Change the border color to purple (#4a148c) */
+    background-color: #ffffff; /* Set a background color */
+  }
+  
+  /* Styling for the header */
+  .header {
+    color: #4a148c; /* Change the header text color to purple (#4a148c) */
+    border-bottom: 2px solid #4a148c; /* Change the border color to purple (#4a148c) */
+  }
+  
+  /* Styling for the select dropdown */
+  .select-dropdown {
+    margin-left: 10px;
+    padding: 5px;
+    border: 1px solid #4a148c; /* Change the border color to purple (#4a148c) */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+  }
+  
+  /* Styling for the input fields */
+  .input-field {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #4a148c; /* Change the border color to purple (#4a148c) */
+    border-radius: 5px;
+  }
+  
+  /* Styling for the button */
+  .add-budget-button {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #4a148c;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  /* Styling for the capacity table */
+  .capacity-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 2px solid #4a148c; /* Change the border color to purple (#4a148c) */
+    border-radius: 10px;
+  }
+  
+  .capacity-table th,
+  .capacity-table td {
+    width: 100%;
+    border: 1px solid #4a148c; /* Change the border color to match the background */
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .capacity-table th {
+    width: 100%;
+    background-color: #4a148c; /* Change the header background color to purple (#4a148c) */
+    color: white;
+    border: 1px solid #4a148c; /* Change the border color to purple (#4a148c) */
+  }
+  

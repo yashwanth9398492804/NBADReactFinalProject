@@ -1,0 +1,68 @@
+/* General styling for table rows */
+.table-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  color: black; /* Set the text color to black */
+  border-bottom: 1px solid black; /* Add bottom border to each row */
+}
+
+/* Remove the bottom border for the last row */
+.table-row:last-child {
+  border-bottom: none;
+}
+
+/* Styling for the header row */
+.table-row.header {
+  /* Background color should be applied to header cells, not the row */
+  color: white; /* Set the header text color to white */
+  padding-top: 20px; /* Add some top padding to the header row */
+}
+
+/* Styling for header cells */
+.table-row.header .table-cell {
+  background-color: #4a235a; /* Dark purple background for header cells */
+}
+
+/* Styling for odd and even rows */
+.table-row:nth-child(odd),
+.table-row:nth-child(even) {
+  background-color: white; /* White background for all rows */
+}
+
+/* Specific styling for 'Remaining Balance' cells */
+.table-cell.remaining-balance {
+  background: linear-gradient(to right, #943126, #c0392b); /* Gradient from maroon to red */
+  font-weight: bold; /* Bold text */
+  text-align: center; /* Center the text */
+}
+
+/* General styling for table cells */
+.table-cell {
+  flex: 1;
+  padding: 8px; /* Padding for the cells */
+  border-right: 1px solid black; /* Black border to divide columns */
+}
+
+/* Remove the right border for the last cell in each row */
+.table-row .table-cell:last-child {
+  border-right: none;
+}
+
+/* Styling for the table border */
+.budget-table {
+  border: 2px solid black; /* Black border for the table */
+  border-collapse: collapse; /* Ensures borders collapse into a single border */
+  margin-top: 500px; /* Add some top margin to the table */
+}
+
+/* Adjustments for select dropdown to match the header */
+.select-dropdown {
+  border-color: #4a235a; /* Purple border to match the header */
+}
+
+/* Styling for buttons */
+.button {
+  background-color: #fafafa; /* Light background for the buttons */
+  /* Additional button styles as needed */
+}
